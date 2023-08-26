@@ -1,0 +1,24 @@
+server:
+  port: 8090
+
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+  freemarker:
+    suffix: html
+  profiles:
+    active: dev
+
+management:
+  server:
+    port: 8099
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: "*"
+
+
+
