@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wrfx-lcsc" />
+        <module name="wrfx-eureka" />
         <module name="wrfx-common" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="wrfx-common" options="-parameters" />
+      <module name="wrfx-eureka" options="-parameters" />
       <module name="wrfx-lcsc" options="-parameters" />
     </option>
   </component>

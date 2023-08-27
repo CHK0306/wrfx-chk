@@ -1,5 +1,6 @@
-server:
-  port: 8090
+ribbon:
+  # eureka客户端ribbon刷新时间
+  ServerListRefreshInterval: 5000
 
 spring:
   mvc:
@@ -10,6 +11,9 @@ spring:
     suffix: html
   profiles:
     active: dev
+jasypt:
+  encryptor:
+    password: wrfx_chk_passwork
 
 management:
   server:

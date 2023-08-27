@@ -40,6 +40,11 @@
             <version>7.1.0</version>
             <scope>test</scope>
         </dependency>
+        <!--Eureka服务端的依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
